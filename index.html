@@ -1,70 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Simple Article Listing | devChallenges.io</title>
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+  <title>Simple Article Listing | devChallenges.io</title>
 
-      body {
-        height: 100vh;
-      }
+  <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+    body {
+      height: 100vh;
+    }
 
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <main class="containerMain">
-      <h1 class="containerMain-title">We release interesting articles about technology</h1>
-      <img src="resources/Seperator.svg" alt="Seperator" srcset="" class="containerMain-imgSeperator">
-    </main>
-    <!-- 
-    
-      Unlocking the Power of Cloud Computing
-    
-      A Guide to Scalable Solutions
-    
-      November 12, 2024
-    
-      The Future of AI
-    
-      How Machine Learning is Revolutionizing Industries
-    
-      The Impact of 5G on Business
-    
-      How Faster Networks are Transforming the Way We Work
-    
-    -->
+    .author-info {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 16px;
+      color: rgb(55, 65, 81);
+    }
 
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
-  </body>
+    .author-info a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="containerMain">
+    <h1 class="containerMain-title">We release interesting articles about technology</h1>
+    <img src="resources/Seperator.svg" alt="Seperator" srcset="" class="containerMain-imgSeperator">
+
+    <article class="containerMain_article">
+      <header class="containerMain_article_header">
+        <img src="resources/photo_1@2x.png" alt="Photo of Cloud Computing Article" srcset=""
+          class="containerMain_article_header-image">
+      </header>
+      <div class="containerMain_article_main">
+        <h3 class="containerMain_article_main-title">Unlocking the Power of Cloud Computing: A Guide to Scalable
+          Solutions</h3>
+        <small class="containerMain_article_main-date">November 12, 2024</small>
+      </div>
+    </article>
+
+    <article class="containerMain_article">
+      <header class="containerMain_article_header">
+        <img src="resources/photo_3@2x.png" alt="Photo of The Future of AI Article" srcset=""
+          class="containerMain_article_header-image">
+      </header>
+      <div class="containerMain_article_main">
+        <h3 class="containerMain_article_main-title">The Future of AI: How Machine Learning is Revolutionizing
+          Industries</h3>
+        <small class="containerMain_article_main-date">November 12, 2024</small>
+      </div>
+    </article>
+
+    <article class="containerMain_article">
+      <header class="containerMain_article_header">
+        <img src="resources/photo_2@2x.png" alt="Photo of Impact of 5G Article" srcset=""
+          class="containerMain_article_header-image">
+      </header>
+      <div class="containerMain_article_main">
+        <h3 class="containerMain_article_main-title">The Impact of 5G on Business: How Faster Networks are Transforming
+          the Way We Work</h3>
+        <small class="containerMain_article_main-date">November 12, 2024</small>
+      </div>
+    </article>
+  </main>
+
+  <div class="author-info">
+    Coded by <a href="#">Your Name Here</a> | Challenge by
+    <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
+  </div>
+</body>
+
 </html>
