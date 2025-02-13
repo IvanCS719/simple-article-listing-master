@@ -18,3 +18,11 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .containerMain-title{
+    font-size: 2.25rem;
+    width: 675px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
