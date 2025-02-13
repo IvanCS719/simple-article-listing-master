@@ -30,3 +30,27 @@
   .containerMain-imgSeperator{
     margin-bottom: 24px;
   }
+
+  .containerMain_article{
+    display: flex;
+    width: 750px;
+    gap: 64px;
+    align-items: center;
+  }
+
+  .containerMain_article_header-image{
+    width: 160px;
+    border-radius: 12px;
+  }
+
+  .containerMain_article_main-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .containerMain_article_main-date{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #4D5562;
+  }
