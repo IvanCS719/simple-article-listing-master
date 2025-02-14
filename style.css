@@ -60,3 +60,9 @@
     font-weight: 400;
     color: #4D5562;
   }
+
+  .author-info{
+    text-align: center;
+    font-size: 0.875;
+    color: #374151;
+  }
