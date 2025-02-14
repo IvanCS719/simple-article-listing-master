@@ -30,13 +30,13 @@
 
   .containerMain_contArt{
     display: flex;
+    width: 750px;
     flex-direction: column;
     gap: 44px;
   }
 
   .containerMain_contArt_article{
     display: flex;
-    width: 750px;
     gap: 64px;
     align-items: center;
   }
