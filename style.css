@@ -7,16 +7,13 @@
     font-family: "Poppins", serif, sans-serif;
   }
 
-  body {
-    height: 100vh;
-  }
-
   .containerMain{
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 24px 0;
   }
 
   .containerMain-title{
